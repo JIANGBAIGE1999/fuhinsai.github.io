@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+    <script src="./js/analytics.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="FuPinqi">
+
+    <title>Fu Pinqi's Portfolio</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="alternate" href="https://hodalab.com/en/portfolio/" hreflang="en" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Capriola">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./css/test.css">
+
+    <meta name="description" content="エンジニアFu Pinqiのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。">
+    <meta name="keywords" content="Fu Pinqi,Webエンジニア,ソフトウェアエンジニア,ポートフォリオ">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fu Pinqi's Portfolio">
+    <meta property="og:description" content="WebエンジニアFu Pinqiのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。">
+    <meta property="og:site_name" content="Fu Pinqi's Portfolio">
+    <meta property="og:locale" content="ja_JP">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper container">
+                    <a href="http://www.fupinqi.tk/" id="logo-container" class="brand-logo" aria-label="Link to fupinqi.tk">
+                        <svg style="isolation:isolate" viewBox="0 0 64 64" width="64" height="64"><rect x="17.858" y="17.858" width="28.284" height="28.284" transform="matrix(0.707,-0.707,0.707,0.707,-13.255,32)" fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(121,198,182)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/><path d=" M 15.556 22.222 C 15.556 18.543 18.543 15.556 22.222 15.556 C 25.902 15.556 28.889 18.543 28.889 22.222 C 28.889 25.902 25.902 28.889 22.222 28.889 C 18.543 28.889 15.556 25.902 15.556 22.222 Z " fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(144,202,249)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/><polygon points="35.556,44.559,43.552,32.889,48.889,46.222" fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(237,146,159)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/><line x1="27.556" y1="36.444" x2="16.889" y2="47.111" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(255,195,93)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/></svg>
+                    </a>
+
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger" style="color: black;">
+                        <i class="material-icons led-color-of-icon">menu</i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#" class="scroll-to-top-li">トップ</a></li>
+                        <li><a href="#about-this-site" id="this_site">このサイトについて</a></li>
+                        <li class="dropdown"><a href="#about-me" id="propro">ポートフォリオ</a>
+                            <ul class="dropdown-list">
+                                <li><a href="#projects" id="Projects">制作物</a></li>
+                                <li><a href="#skills" id="Skills">スキル</a></li>
+                                <li><a href="#profile" id="Profile">プロフィール</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact" id="Contact">連絡先</a></li>
+                        <li><a href="https://github.com/JIANGBAIGE1999" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="http://www.shenghan.org/FUPINQI">ShengHan Club</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#" class="scroll-to-top-li">トップ</a></li>
+            <li><a href="#about-this-site" class="this_site">このサイトについて</a></li>
+            <li>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <a class="collapsible-header" style="padding: 0 32px;">プロフィール<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#projects" id="sp_works">制作物</a></li>
+                                <li><a href="#skills" id="sp_skills">スキル</a></li>
+                                <li><a href="#profile" id="sp_profile">プロフィール</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#contact" class="Contact">連絡先</a></li>
+            <li><a href="https://github.com/JIANGBAIGE1999" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="http://www.shenghan.org/FUPINQI">ShengHan Club</a></li>
+        </ul>
+    </header>
+
+
+
+
+    <div id="top-banner-container" class="valign-wrapper led">
+        <div class="container">
+            <div class="row center">
+                <h1 class="header col s12 text-lighten-2" data-aos="zoom-in" data-aos-duration="700" data-aos-once="true">フ　ヒンサイのラボ!</h1>
+                <h5 class="text-for-desktop" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">Fu Pinqi Engineering Laboratory</h5>
+                <h5 class="text-for-phone" data-aos="fade-up" data-aos-delay="250" data-aos-duration="700" data-aos-once="true">Fu Pinqi Engineering Laboratory</h5>
+                <div class="controller" data-aos="fade-up" data-aos-delay="750" data-aos-duration="700">
+                    <svg style="isolation:isolate" viewBox="0 0 300 200" width="300" height="200"><path d=" M 271.317 173.993 C 262.656 180.269 249.129 179.804 240.801 171.884 C 231.963 163.481 226.485 153.311 218.193 143.15 Q 214.26 138.338 201.633 138.554 Q 165.267 139.172 147.132 138.77 Q 132.369 138.653 98.328 138.77 Q 85.704 138.548 81.774 143.366 C 73.479 153.524 68.004 163.688 59.163 172.097 C 50.841 180.011 37.311 180.482 28.647 174.2 C 16.302 165.257 13.497 157.637 16.65 145.694 C 21.603 126.923 31.233 89.303 36.012 70.484 C 45.516 33.068 54.084 26.972 87.663 25.328 C 95.424 24.95 105.561 24.899 112.02 35.408 C 114.876 40.058 119.718 39.314 124.257 39.305 L 175.707 39.305 C 180.249 39.314 185.082 39.848 187.947 35.198 C 194.4 24.689 204.534 24.734 212.298 25.115 C 245.877 26.762 254.487 32.843 263.952 70.274 C 270.291 95.366 276.12 118.901 283.314 145.481 C 286.545 157.409 283.665 165.047 271.317 173.993 Z " fill-rule="evenodd" fill="rgb(255,255,255)"></path></svg>
+                    <div id="color-switch">
+                        <div id="led-btn-red" class="btn btn-floating pulse">R</div>
+                        <div id="led-btn-green" class="btn btn-floating pulse on">G</div>
+                        <div id="led-btn-blue" class="btn btn-floating pulse">B</div>
+                    </div>
+                    <div id="four-way-button">
+                        <div id="top-key"><i class="material-icons">arrow_drop_up</i></div>
+                        <div id="left-key"><i class="material-icons">arrow_drop_up</i></div>
+                        <div id="right-key"><i class="material-icons">arrow_drop_up</i></div>
+                        <div id="bottom-key"><i class="material-icons">arrow_drop_down</i></div>
+                        <div id="center-key"><i class="material-icons">fiber_manual_record</i></div>
+                    </div>
+                    <div id="start-button"></div>
+                </div>
+
+                <div class="scroll-to-bottom-btn text-for-desktop" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700">
+                    <a href="#about-this-site" class="scroll-to-bottom"><i class="material-icons waves-effect waves-light">keyboard_arrow_down</i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="about-this-site" class="section valign-wrapper">
+        <div class="container">
+            <h2 class="center grey-text text-darken-3">About this site</h2>
+            <div class="row">
+
+                <div class="col s12">
+                    <p class="grey-text text-darken-3 center-align text-for-desktop">ここは留学生Fu Pinqiのポートフォリオサイトです。<br> これまでに手がけた制作物、身につけたスキルをまとめています。
+                        <br> あなたに、私のことをもっと深く知ってほしいと思って作りました。
+                        <br> どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。
+                    </p>
+                    <p class="grey-text text-darken-3 text-for-phone">ここは留学生Fu Pinqiのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。あなたに、私のことをもっと深く知ってほしいと思って作りました。どうぞお茶でも飲みながらごゆるりとサイト内を散策してください。</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about-me" class="section valign-wrapper">
+        <div class="container">
+            <h2 class="center">About me</h2>
+            <div class="row">
+                <div class="col s12 m2 offset-m2">
+                    <img id="profile-image" src="./img/pro.jpg" alt="プロフィール画像" width="140" height="250" data-aos-duration="300" data-aos="zoom-in" data-aos-once="true">
+                </div>
+                <div class="col s12 m6">
+                    <p>中国遼寧省出身の留学生。大学時代で機械学習、ゲーム開発、Web開発などのIT分野で体験しました。今フロントエンドエンジニアとして社会に貢献したいです。
+                        中国の大連理工大学に情報理工学を研究しました。視野を拡大するために、2022年4月に九州大学へ留学し、情報理工学コースでVRの仮想空間専攻しています。
+                        大学時代でC言語をスタートし、JavaScript/CSS/HTML、C++とpythonを覚えました。インターンで機械学習とフロントサイドの業務を経験してきました。
+                    </p>
+                    <ul>
+                        <li>- GitHub: <a href="https://github.com/JIANGBAIGE1999" target="_blank" rel="noopener">https://github.com/JIANGBAIGE1999</a></li>
+                        <li>- LeetCode: <a href="https://leetcode.cn/u/practical-gagarinwka/" target="_blank" rel="noopener">https://leetcode.cn/u/practical-gagarinwka/</a></li>
+                        <li>- 研究室: <a href="http://cog.inf.kyushu-u.ac.jp/j/member/index.html" target="_blank" rel="noopener">http://cog.inf.kyushu-u.ac.jp/j/member/index.html</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="projects" class="section valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <h3 class="center" id="CCC">Works</h3>
+                <p class="center">腕によりをかけて制作した、愛すべき成果物たちをご紹介します。</p>
+
+                <div class="col s12 m4">
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+                            <div class="card hoverable">
+                                <div class="card-image valign-wrapper">
+                                    <div class="image-wrapper">
+                                        <div class="div-cover" style="background-image: url(./img/example1.png)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="center-align project-title grey-text text-darken-3">業務分析アプリ</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+                            <div class="card hoverable">
+                                <div class="card-image valign-wrapper">
+                                    <div class="image-wrapper">
+                                        <div class="div-cover" style="background-image: url(./img/example2.png)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="center-align project-title grey-text text-darken-3">撮影クラブのweb</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+                            <div class="card hoverable">
+                                <div class="card-image valign-wrapper">
+                                    <div class="image-wrapper">
+                                        <div class="div-cover" style="background-image: url(./img/example3.png)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="center-align project-title grey-text text-darken-3">防疫意識の向上についてのweb</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+                            <div class="card hoverable">
+                                <div class="card-image valign-wrapper">
+                                    <div class="image-wrapper">
+                                        <div class="div-cover" style="background-image: url(./img/example4.png)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="center-align project-title grey-text text-darken-3">VARモデル</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+                            <div class="card hoverable">
+                                <div class="card-image valign-wrapper">
+                                    <div class="image-wrapper">
+                                        <div class="div-cover" style="background-image: url(./img/example5.png)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="center-align project-title grey-text text-darken-3">画像認識用のモデル</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <a href="#" class="modal-trigger" aria-label="Lind to modal window">
+                            <div class="card hoverable">
+                                <div class="card-image valign-wrapper">
+                                    <div class="image-wrapper">
+                                        <div class="div-cover" style="background-image: url(./img/example6.png)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <p class="center-align project-title grey-text text-darken-3">SSDモデル</p>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <a href="javascript:void(0)" >
+                            <img src="./img/close.png" alt="" class="close">
+                        </a>
+                        <div class="col s12 m4">
+                            <h4 class="center-align"><span>業務分析アプリ</span></h4>
+                            <p>店長さん向けて開発した業務分析用のwebアプリです。</p>
+                            <p>どの時期で、どの地域に売上が一番高いを分析するのはもちろん、どの商品が一番人気ある、在庫状況もこのアプリを通じてすぐに分かる。メンターさんに実務レベルで使用できると評価されました。</p>
+                            <p>
+                                <a href="https://github.com/JIANGBAIGE1999/frontend/tree/main/first_China_intership" target="_blank" rel="noopener"> GitHub</a>
+                            </p>
+
+                            <h5 class="center-align"><span>使用言語など</span></h5>
+                            <p>HTML、CSS(LESS)、JavaScript、Echarts、Vue、Axios、WebSocket</p>
+                        </div>
+                        <div class="col s12 m8">
+                            <div class="mainImage">
+                                <a href="https://rails-sample-app-by-hodaka.herokuapp.com/" target="_blank" rel="noopener">
+                                    <img src="./img/example1.png" alt="" class="responsive-img z-depth-2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <a href="javascript:void(0)" >
+                            <img src="./img/close.png" alt="" class="close">
+                        </a>
+                        <div class="col s12 m4">
+                            <h4 class="center-align"><span>撮影クラブのweb</span></h4>
+                            <p>友人の撮影クラブ向けて作ったweb基づいて、レベルアップされました。</p>
+                            <p>綺麗なホームページだけではなく、登録ページ、ログインページ、ユーザーページ、などの十一個のページも作りました。</p>
+                            <p>現在サーバーにないです。</p>
+                            <p>
+                                <a href="https://github.com/JIANGBAIGE1999/frontend/tree/main/%E6%92%AE%E5%BD%B1%E3%82%AF%E3%83%A9%E3%83%96%E3%81%AEweb" target="_blank" rel="noopener"> GitHub</a>
+                            </p>
+                            <h5 class="center-align"><span>使用言語など</span></h5>
+                            <p>HTML、CSS(LESS)、JavaScript、Jquery</p>
+                        </div>
+                        <div class="col s12 m8">
+                            <div class="mainImage">
+                                <img src="./img/example2_1.png" alt="" class="responsive-img z-depth-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <a href="javascript:void(0)" >
+                            <img src="./img/close.png" alt="" class="close">
+                        </a>
+                        <div class="col s12 m4">
+                            <h4 class="center-align"><span>防疫意識の向上についてのweb</span></h4>
+                            <p>2021年に武漢市の新型コロナの状況がとても悪いでした。防疫意識の向上する為に、学校の課題としてこのウェブを作りました。</p>
+                            <p>主に三つのページを作成しました。</p>
+                            <p>現在サーバーにないです。</p>
+                            <p>
+                                <a href="https://github.com/JIANGBAIGE1999/frontend/tree/main/%E9%98%B2%E7%96%AB%E6%84%8F%E8%AD%98%E3%81%AE%E5%90%91%E4%B8%8A" target="_blank" rel="noopener"> GitHub</a>
+                            </p>
+                            <h5 class="center-align"><span>使用言語など</span></h5>
+                            <p>HTML/CSS, jQuery</p>
+                        </div>
+                        <div class="col s12 m8">
+                            <div class="mainImage">
+                                <a href="https://hodalog.com/" target="_blank" rel="noopener">
+                                    <img src="./img/example3_1.png" alt="" class="responsive-img z-depth-2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <a href="javascript:void(0)" >
+                            <img src="./img/close.png" alt="" class="close">
+                        </a>
+                        <div class="col s12 m4">
+                            <h4 class="center-align"><span>VARモデル</span></h4>
+                            <p>私の卒業論文は最適化されたベクトル自己回帰モデルによる脳波から脳領域間情報伝達検出です。記憶、思考などの高次認知機能を実現するために
+                                、複数の領域の統合が必要となり、そのメカニズムを詳しく理解するために、領域間の神経活動の因果関係を検出する必要があります。この因果関係
+                                を検出する為に私はベクトル自己回帰モデルを利用しました。
+                            </p>
+                            <p>VARモデルはARモデルを多変量に拡張したものであり、グレンジャー因果検定の原理であ
+                                る。グレンジャー因果検定は2つの時系列間に因果関係があるかを判定する検定である。
+                            </p>
+                            <p>
+                                <a href="https://github.com/JIANGBAIGE1999/python-project/tree/master/Python-VAR-master" target="_blank" rel="noopener"> GitHub</a>
+                            </p>
+                            <h5 class="center-align"><span>使用言語など</span></h5>
+                            <p>python、statsmodels.tsa.api、pandas、numpy、matplotlib、scipy</p>
+                        </div>
+                        <div class="col s12 m8">
+                            <div class="mainImage">
+                                <img src="./img/example4.png" alt="" class="responsive-img z-depth-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <a href="javascript:void(0)" >
+                            <img src="./img/close.png" alt="" class="close">
+                        </a>
+                        <div class="col s12 m4">
+                            <h4 class="center-align"><span>画像認識用のモデル</span></h4>
+                            <p>画像認識のインターンシップを参加し、TensorFlowで開発したモデルです。</p>
+                            <p>精度が99%以上になったのはもちろん、わずか24分でモデルを訓練できます。</p>
+                            <p>
+                                <a href="https://github.com/JIANGBAIGE1999/python-project/tree/master/%E7%94%BB%E5%83%8F%E8%AA%8D%E8%AD%98_%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/Models_with%2099%25_accuracy" target="_blank" rel="noopener"> GitHub</a>
+                            </p>
+                            <h5 class="center-align"><span>使用言語など</span></h5>
+                            <p>tensorflow、keras、cv2、numpy、math</p>
+                        </div>
+                        <div class="col s12 m8">
+                            <div class="mainImage">
+                                <a href="https://hodalog.com/gohoubi-system/" target="_blank" rel="noopener">
+                                    <img src="./img/example5.png" alt="" class="responsive-img z-depth-2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <a href="javascript:void(0)" >
+                            <img src="./img/close.png" alt="" class="close">
+                        </a>
+                        <div class="col s12 m4">
+                            <h4 class="center-align"><span>SSDモデル</span></h4>
+                            <p>
+                                写真の道路に傷があるかどうかを判断できるのモデルを作りました。
+                            </p>
+                            <p>
+                                SSDの肝となるのは、「デフォルトボックス（default boxes）」という長方形の「枠」です。
+                            </p>
+                            <p>
+                                一枚の画像をSSDに読ませ、その中のどこに何があるのか予測させるとき、SSDは画像上に大きさや形の異なるデフォルトボックスを8732個乗せ、その枠ごとに予測値を計算します。
+                            </p>
+                            <p>
+                                <a href="https://avinton.com/blog/2018/03/single-shot-multibox-detector-explained1/" target="_blank" rel="noopener">SSDを詳しく理解したいなら、こちらをクリックしてください</a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/JIANGBAIGE1999/python-project/tree/master/%E7%94%BB%E5%83%8F%E8%AA%8D%E8%AD%98_%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/SSD%E3%83%A2%E3%83%87%E3%83%AB" target="_blank" rel="noopener"> GitHub</a>
+                            </p>
+                            <h5 class="center-align"><span>使用言語など</span></h5>
+                            <p>tensorflow、keras、cv2、numpy、math</p>
+                        </div>
+                        <div class="col s12 m8">
+                            <div class="mainImage">
+                                <img src="./img/example6_1.png" alt="" class="responsive-img z-depth-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="section valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <h3 class="center">My skill set</h3>
+                <div class="col s12">
+                    <p>大学時代で身につけた言語をグラフィカルにまとめました。以下の図のようにフロントから機械学習までのスキルアップに取り組んできました。基礎知識をちゃんと把握する点が強みですが、フロントエンドのフレームワークの理解度の低さを認識しています。今後はフロントエンド系の開発（VueとReact）の業務に携わる比率を増やし、実務能力を高めていきたいと考えています。</p>
+                    <p>＊業務で実際に使用した技術のみ掲載しております。</p>
+                </div>
+                <div class="col s12 m4" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true">
+                    <canvas id="programmingSkillSet" width="280" height="280"></canvas>
+                    <ul class="collection grey-text text-darken-2">
+                        <li>5 - Super Saiyan</li>
+                        <li>4 - Ninja</li>
+                        <li>3 - Pokémon Master</li>
+                        <li>2 - I can use it a little.</li>
+                        <li>1 - Beginner</li>
+                    </ul>
+                </div>
+                <div class="col s12 m4" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true" data-aos-delay="250">
+                    <canvas id="infraSkillSet" width="280" height="280"></canvas>
+                    <ul class="collection grey-text text-darken-2">
+                        <li>5 - Jedi</li>
+                        <li>4 - Samurai</li>
+                        <li>3 - Stand Master</li>
+                        <li>2 - I can use it a little.</li>
+                        <li>1 - Beginner</li>
+                    </ul>
+                </div>
+                <div class="col s12 m4" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true" data-aos-delay="500">
+                    <canvas id="interests" width="280" height="280"></canvas>
+                    <ul class="collection grey-text text-darken-2">
+                        <li>5 - Platinum</li>
+                        <li>4 - Gold</li>
+                        <li>3 - Silver</li>
+                        <li>2 - Bronze</li>
+                        <li>1 - Beginner</li>
+                    </ul>
+                </div>
+                <div class="col s12">
+                    <p>チャートの見方としては「1: ちゃんと勉強して良い成績を取ったが、実務経験がない。または実務に使うように、もう少し習熟が必要」、「2: 実務で一ヶ月以上使用している」、「3: 実務で二ヶ月以上使用している」。という感じです。その他、もっと詳しい覚えた技術について、<a href="https://stackshare.io/jiangbaige1999/my-stack#stack" target="_blank" rel="noopener">こちらをご覧ください</a>。</p>
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+
+    <div id="profile" class="section valign-wrapper">
+        <div class="container">
+            <h2 class="center">Profile</h2>
+            <p class="center">私のこれまでのIT人生をご紹介します。</p>
+            <div class="row">
+                <div class="tree-container">
+                    <div class="leaf-row">
+                        <h2>1999~</h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/1999.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>中国遼寧省の遼陽市にて産声をあげる</h3>
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>両親と一緒に温泉に入ることが大好き</h3>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2005~<span>小学校時代</span></h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2005.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>ポケモンが好き</h3>
+                            <p>サトシのような訓練師になりたい。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2012~2014<span>中学校時代</span></h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2012.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>コンピュータの可能性を実感</h3>
+                            <p>コンピュータでゲームをするのは満足されなくて、何か面白いことを行って、「コンピュータエンジニア」を目指した。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2014~2017<span>高校時代</span></h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2014.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>ずっと勉強</h3>
+                            <p>全国には940万人の受験生がいたので、自分の夢を実現するためにずっと頑張った。その結果、高順位で大連理工大学の情報理工学部へ入り、中学時代の夢を追い続けた。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2017~</h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2017.jpeg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>コーディングに触れる</h3>
+                            <p>C言語で「Hello World」をコーディングした。簡単なプログラムですが、コーディングの達成感とロジックの面白さを理解した。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2018~</h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/example2.png)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>初めてのWeb制作</h3>
+                            <p>撮影クラブの学生達の作品を展示す
+                                る為に、自分でクラブの写真Webを作りました。感動的な一瞬を、きれいな
+                                Webに集積し表現した結果、学生達に大好評でした。この経験は一生忘れられ
+                                ない。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2018<span>8月</span></h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2018.png)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>研修旅行で来日</h3>
+                            <p>日本の学生と一緒に眼球運動実験を行った過程で仕事に対する厳しさと、密なチームワークは勉強になった。金閣寺、嵐山も深く印象に残った。日本語を学び始めた。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2019~</h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2019.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>機械学習に触れた</h3>
+                            <p>人工知能特論と機械学習と履修したことで画像認識に興味をもって、Pytorchを利用して手書き数字を認識できるプログラムを作成。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2020</h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2020.png)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>日本への留学を決意</h3>
+                            <p>２１歳の私は、自分の未来を思考し、一生に国内で生活するのが本当に良いか？小さい頃の夢を実現したか？中国以外の世界を見たくないか？といったことをいろいろ考えた結果、日本へ留学することを決意した。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2021</h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2021.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>夢実現のため九州大学へ</h3>
+                            <p>先輩たちから情報を集め、九州大学の認知科学研究室への留学を決めた。毎日頑張って勉強し、無事に合格。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2022<span>6月</span></h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2022_6.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>画像認識についてのインターン</h3>
+                            <p>将来、Web開発かAI開発のどちらをやるか迷っていた。そこで仕事を詳しく知るために、2
+                                か月間アイシンソフトウェア株式会社で画像認識を行った。</p>
+                        </div>
+                    </div>
+
+                    <div class="leaf-row">
+                        <h2>2022<span>10月</span></h2>
+                        <div class="leaf-circle leaf-medium" style="background-image: url(./img/2022_10.jpg)" data-aos-duration="300" data-aos="zoom-in">
+                        </div>
+                        <div class="leaf-card" data-aos="fade-left" data-aos-duration="300">
+                            <h3>Web開発についてのインターン</h3>
+                            <p>9月からAnySense株式会社でフロントエンドに関しての作業を行っている。AI開発の膨大なデータを分析するより、お客様に向けてきれいなホームページを開発するほうが自分の力を発揮でき、やりがいを感じると思う。</p>
+                            <p>現在、フロントエンドエンジニアを目指している。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m8 offset-m2 closing-profile">
+                    <h2 data-aos="fade-in" data-aos-duration="700" data-aos-once="true">いろんな人への感謝とエンジニアリングへの想い</h2>
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+                        <p>日々の忙しさについ忘れてしまいがちですが、今の私があるのは色んな人たちのサポートのおかげです。一緒に頑張ってWeb開発する友人、留学している私を支援する両親、技術的に未熟な私にもインターンの機会を与えてくれるアイシンさんとAnysenseさんに、本当に心から感謝しています。</p>
+                        <p>様々なWebサービスに触れて自分の目標を立て頑張っている体験をしたように、今後は消費するだけでなく、体験価値を届けられるようなエンジニアになりたい。私自身が抱えている課題や周りの身近な人が抱えている問題をエンジニアリングで解決できるようになりたいと考えています。</p>
+                        <p>また、エンジニアとしてお客様向けてきれいホームページを開発して社会に貢献したいとも思っています。</p>
+                        <p>それを実現するにはどうしたらいいのか。</p>
+                        <p>日々進化し続ける技術に対応するための学習はもちろん、クライアントの悩みや課題を解決できるよう、クライアントの目線を培っていく必要があります。</p>
+                        <p>まだまだ至らない点はたくさんありますが、時代に合わせた技術を追いかけつつ、クライアントに寄り添ったエンジニアリングができるよう、心がけていきます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <h2 class="center grey-text text-darken-3">Contact me</h2>
+                <div class="col s12 m8 offset-m2">
+                    <p class="comment-text grey-text text-darken-3">最後までご覧いただきありがとうございました。このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。もしこのサイトや私について何かコメントがありましたら、下記フォームをご利用ください。</p>
+                </div>
+                <div class="col s12" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                    <form method="post" action="https://submit-form.com/XsOXMCFK">
+                        <div class="input-field col s6 offset-m2 m4">
+                            <input id="name" name="name" type="text" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field col s6 m4">
+                            <input id="email" name="email" type="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12 offset-m2 m8">
+                            <textarea id="textarea" name="message" class="materialize-textarea" required></textarea>
+                            <label for="textarea">Comment</label>
+                        </div>
+                        <div class="input-field col s12 offset-m2 m8 center-align">
+                            <button type="submit" class="waves-effect waves-light btn led-color-of-btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="closing-banner-container" class="valign-wrapper led">
+        <div class="container">
+            <div class="row center">
+                <h2 class="header col s12 light">Thank you for coming!</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-section led-color-of-footer valign-wrapper">
+        <div class="scroll-to-top-btn">
+            <a href="#" class="waves-effect waves-light led-color-of-btn" id="last"><i class="material-icons">keyboard_arrow_up</i></a>
+        </div>
+        <div class="container copyright">
+            <p>© 2022 傅 品斉(フ　ヒンサイ)</p>
+        </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+    <script src="./aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

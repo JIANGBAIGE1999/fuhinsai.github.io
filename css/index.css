@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: Helvetica Neue, Tahoma, Arial, PingFangSC-Regular, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+@media (min-width: 1180px) {
+  .button-collapse,
+  .side-nav,
+  .mobile {
+    display: none;
+  }
+  .fixed {
+    position: fixed;
+    width: 100vw;
+    height: 5.9375vw;
+    background-color: #f9f4f4;
+  }
+  .fixed .default {
+    height: 6.09375vw;
+  }
+  .fixed .default #logo-container {
+    margin-left: 11.71875vw;
+  }
+  .fixed .default img {
+    width: 6.09375vw;
+    height: 6.09375vw;
+  }
+  .fixed .default .right {
+    float: right;
+    display: flex;
+    color: black;
+    margin-right: 11.71875vw;
+  }
+  .fixed .default .right li {
+    justify-content: space-between;
+    font-size: 2.03125vw;
+    float: left;
+  }
+  .fixed .default .right li a {
+    font-size: 1.25vw;
+    line-height: 2.34375vw;
+    display: inline-block;
+    height: 6.09375vw;
+    padding: 2.03125vw 1.171875vw;
+    text-decoration: none;
+  }
+  .fixed .default .right .dropdown .dropdown-list {
+    display: none;
+    position: absolute;
+    top: 6.09375vw;
+    background-color: #e07070;
+    min-width: 8.59375vw;
+    box-shadow: 0vw 0.625vw 1.25vw 0vw rgba(0, 0, 0, 0.2);
+  }
+  .fixed .default .right .dropdown .dropdown-list li {
+    text-align: center;
+    font-style: 1.25vw;
+  }
+  .fixed .default .right .dropdown .dropdown-list li a {
+    display: block;
+    width: 11.09375vw;
+    color: white;
+    padding: 1.5625vw 1.25vw;
+    text-decoration: none;
+    text-align: center;
+  }
+  .fixed .default .right .dropdown .dropdown-list li a:hover {
+    background-color: lightgreen;
+    transition-duration: 0.5s;
+  }
+  .fixed .default .right .dropdown:hover .dropdown-list {
+    display: block;
+    transition-duration: 1.5s;
+  }
+  .fixed .default .Hide li:hover {
+    color: white;
+    height: 6.09375vw;
+    background-color: lightgreen;
+    transition-duration: 0.5s;
+  }
+}
+@media (max-width: 1179px) {
+  .right {
+    display: none;
+  }
+  .default {
+    height: 20.8vw;
+  }
+  .default img {
+    width: 20.8vw;
+    height: 20.8vw;
+  }
+  .button-collapse {
+    position: absolute;
+    left: -5.33333333vw;
+    top: 2.66666667vw;
+  }
+  .mobile {
+    display: none;
+  }
+}
