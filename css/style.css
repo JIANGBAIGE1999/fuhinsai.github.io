@@ -746,7 +746,7 @@ textarea.materialize-textarea:focus:not([readonly])+label.white-input {
 
 #about-me #profile-image {
     background-color: #fff;
-    margin-right: 1rem;
+    margin-right: 5rem;
     margin-top: 1rem;
 }
 
